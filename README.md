@@ -17,6 +17,8 @@
 - [x] Testimonials
 - [x] Pricing
 - [x] Frequently Asked Questions(FAQ)
+- [x] Services
+- [x] Footer
 
 ## Features
 
