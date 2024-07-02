@@ -4,6 +4,7 @@ import { Icon } from "@/components/ui/icon";
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
 import { icons } from "lucide-react";
+import { useTheme } from "next-themes";
 interface sponsorsProps {
   icon: string;
   name: string;
@@ -41,6 +42,8 @@ const sponsors: sponsorsProps[] = [
 ];
 
 export const SponsorsSection = () => {
+  const { theme } = useTheme();
+
   return (
     <section id="sponsors" className="max-w-[75%] mx-auto pb-24 sm:pb-32">
       <h2 className="text-lg md:text-xl text-center mb-6">
@@ -57,7 +60,7 @@ export const SponsorsSection = () => {
               <Icon
                 name={icon as keyof typeof icons}
                 size={32}
-                color="white"
+                color={`${theme === "light" ? "black" : "white"}`}
                 className="mr-2"
               />
               {name}
