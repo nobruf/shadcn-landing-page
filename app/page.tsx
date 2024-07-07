@@ -12,10 +12,6 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <BenefitsSection />
-      <PricingSection />
-      <FAQSection />
-      <FooterSection />
     </>
   );
 }
