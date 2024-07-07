@@ -11,25 +11,25 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Find out how much money you spend",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Crap crap",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Shit shit",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Okay okay",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
   },
@@ -40,10 +40,10 @@ export const BenefitsSection = () => {
     <section id="benefits" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
         <div>
-          <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+          <h2 className="text-lg text-primary mb-2 tracking-wider">Usefullness</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Your money guide
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non

@@ -13,32 +13,32 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "Do you store my transactions data?",
+    answer: "No. We do not store any transaction data of any sort in our systems.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "How do you access my financial transactions?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "We use Mono, to securely retrieve your transactions. We get read only access and cannot perform any other action on your account",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "Is this free?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Yep",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "How many accounts can i add?",
+    answer: "Up to 5 accounts",
     value: "item-4",
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+      "What does TewoTewo mean?",
+    answer: "A Yoruba word for someone who sends other people a lot of money. So the charts tell you how much of a tewo tewo you were on a certain day",
     value: "item-5",
   },
 ];
@@ -51,9 +51,6 @@ export const FAQSection = () => {
           FAQS
         </h2>
 
-        <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Common Questions
-        </h2>
       </div>
 
       <Accordion type="single" collapsible className="AccordionRoot">
@@ -62,7 +59,6 @@ export const FAQSection = () => {
             <AccordionTrigger className="text-left">
               {question}
             </AccordionTrigger>
-
             <AccordionContent>{answer}</AccordionContent>
           </AccordionItem>
         ))}
