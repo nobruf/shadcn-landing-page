@@ -15,6 +15,7 @@
 - [x] Benefits
 - [x] Features
 - [x] Testimonials
+- [x] Team
 - [x] Pricing
 - [x] Frequently Asked Questions(FAQ)
 - [x] Services
