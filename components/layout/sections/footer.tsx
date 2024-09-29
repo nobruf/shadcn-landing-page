@@ -8,8 +8,8 @@ import Link from "next/link";
 export const FooterSection = () => {
   return (
     <footer id="footer" className="container py-24 sm:py-7">
-      <div className="p-10 bg-card border border-border rounded-2xl">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-8">
+      <div className="px-10 pt-10 pb-4 bg-card border-t border-border">
+        <div className="flex flex-row justify-end gap-x-20 gap-y-8">
           {/* <div className="col-span-full sm:col-span-1">
             <Link href="#" className="flex font-medium items-center">
               
@@ -88,10 +88,11 @@ export const FooterSection = () => {
           </div>
         </div>
 
-        <Separator className="my-9" />
-        <section className="flex flex-row">
+        {/* <Separator className="my-9" /> */}
+        <section className="flex flex-row items-center mt-14">
           <h3 className="opacity-60 flex-1">
-            &copy; Copyright © 2024 GrimoAI Pte. Ltd. All rights reserved.
+            Copyright © 2024 GrimoAI Pte. Ltd. <br />
+            All rights reserved.
           </h3>
           <ul className="flex flex-row gap-4">
             <li>
@@ -111,11 +112,7 @@ export const FooterSection = () => {
                 href="https://x.com/GrimoAI"
                 className="opacity-60 hover:opacity-100"
               >
-                <Icon
-                  name="Twitter"
-                  size={20}
-                  color="hsl(var(--foreground))"
-                />
+                <Icon name="Twitter" size={20} color="hsl(var(--foreground))" />
               </Link>
             </li>
           </ul>
