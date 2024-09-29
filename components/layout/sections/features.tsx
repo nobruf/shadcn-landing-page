@@ -59,7 +59,7 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        GrimoAI doesn't write for you. It writes with you.
+        GrimoAI does not write for you. It writes with you.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
