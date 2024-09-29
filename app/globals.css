@@ -85,7 +85,7 @@ html {
     --popover: 0 0% 100%;
     --popover-foreground: 20 14.3% 4.1%;
 
-    --primary: 24.6 95% 53.1%;
+    --primary: 250 40% 50%;
     --primary-foreground: 60 9.1% 97.8%;
 
     --secondary: 60 4.8% 95.9%;
@@ -116,7 +116,7 @@ html {
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
 
-    --primary: 20.5 90.2% 48.2%;
+    --primary: 250 40% 50%;
     --primary-foreground: 60 9.1% 97.8%;
 
     --secondary: 12 6.5% 15.1%;

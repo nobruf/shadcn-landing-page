@@ -24,7 +24,7 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl: "https://i.pravatar.cc/250?img=58",
+      imageUrl: "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       firstName: "Leo",
       lastName: "Miranda",
       positions: ["Vue Fronted Developer", "Creator Of This Website"],
@@ -175,7 +175,7 @@ export const TeamSection = () => {
   };
 
   return (
-    <section id="team" className="container lg:w-[75%] py-24 sm:py-32">
+    <section id="team" className="container py-24 sm:py-32">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
           Team

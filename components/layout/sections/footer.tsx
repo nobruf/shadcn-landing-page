@@ -11,11 +11,11 @@ export const FooterSection = () => {
             <Link href="#" className="flex font-bold items-center">
               <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary" />
 
-              <h3 className="text-2xl">Shadcn</h3>
+              <h3 className="text-2xl">Grimo</h3>
             </Link>
           </div>
 
-          <div className="flex flex-col gap-2">
+          {/* <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Contact</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
@@ -34,28 +34,28 @@ export const FooterSection = () => {
                 Instagram
               </Link>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Platforms</h3>
+          {/* <div className="flex flex-col gap-2">
+            <h3 className="font-bold text-lg">Socials</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                iOS
+                Twitch
               </Link>
             </div>
 
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Android
+                Discord
               </Link>
             </div>
 
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Web
+                Dribbble
               </Link>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Help</h3>
@@ -79,29 +79,37 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Socials</h3>
+            <h3 className="font-bold text-lg">Terms & Policies</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Twitch
+              <Link
+                href="/acceptable-use-policy"
+                className="opacity-60 hover:opacity-100"
+              >
+                Acceptable Use Policy
+              </Link>
+            </div>
+            <div>
+              <Link
+                href="/privacy-policy"
+                className="opacity-60 hover:opacity-100"
+              >
+                Privacy Policy
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Discord
-              </Link>
-            </div>
-
-            <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
-                Dribbble
+              <Link
+                href="/refund-policy"
+                className="opacity-60 hover:opacity-100"
+              >
+                Refund Policy
               </Link>
             </div>
           </div>
         </div>
 
-        <Separator className="my-6" />
-        <section className="">
+        {/* <Separator className="my-6" /> */}
+        {/* <section className="">
           <h3 className="">
             &copy; 2024 Designed and developed by
             <Link
@@ -112,7 +120,7 @@ export const FooterSection = () => {
               Leo Miranda
             </Link>
           </h3>
-        </section>
+        </section> */}
       </div>
     </footer>
   );
