@@ -19,18 +19,17 @@ export const HeroSection = () => {
             <span> Design is out now! </span>
           </Badge> */}
 
-          <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
+          <div className="max-w-screen-lg mx-auto text-center text-4xl md:text-6xl font-semibold">
             <h1>
-              Your All-in-One
               <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                writing
+                Reimagine
               </span>
-              Interface
+              Word Processor
             </h1>
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {`An integrated workflow to think, search, organize and synthesize`}
+            {`Your All-in-one Writing Interface for Better Writing.`}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
@@ -40,7 +39,7 @@ export const HeroSection = () => {
                 href="http://beta.grimo.ai"
                 target="_blank"
               >
-                Get Started
+                Start Writing
               </Link>
               {/* <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" /> */}
             </Button>
@@ -61,7 +60,7 @@ export const HeroSection = () => {
         </div>
 
         <div className="relative group mt-14">
-          <div className="absolute top-2 lg:-top-8 left-1/2 transform -translate-x-1/2 w-[90%] mx-auto h-24 lg:h-80 bg-primary/50 rounded-full blur-3xl"></div>
+          <div className="absolute top-2 lg:-top-8 left-1/2 transform -translate-x-1/2 w-[90%] mx-auto h-24 lg:h-80 bg-primary/35 rounded-full blur-3xl"></div>
           <Image
             width={1200}
             height={1200}

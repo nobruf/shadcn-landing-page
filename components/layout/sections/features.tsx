@@ -16,16 +16,16 @@ const featureList: FeaturesProps[] = [
       "No need to switch between multiple windows. Find what you need from any location within the Grimo.",
   },
   {
-    icon: "MessageSquareText",
-    title: "AI Comment",
+    icon: "PencilLine",
+    title: "Personalized Rewriting",
     description:
-      "Get real-time suggestions to improve clarity, style, and impact with instant AI feedback.",
+      "By learning what you like, GrimoAI rewrites as you expect, probably better than anywhere else.",
   },
   {
     icon: "Brain",
-    title: "Ask AI anything",
+    title: "Smart Editing",
     description:
-      "Get instant answers and insights on any topic. Leverage AI to satisfy your curiosity and solve problems quickly.",
+      "Get real-time suggestions on your writing. More than grammer and styling.",
   },
   // {
   //   icon: "PictureInPicture",
@@ -54,13 +54,12 @@ export const FeaturesSection = () => {
         Features
       </h2>
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
+      <h2 className="text-3xl md:text-4xl text-center font-semibold mb-4">
         What Makes Us Different
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Enhance your productivity and creativity with our cutting-edge AI
-        writing tool.
+        GrimoAI doesn't write for you. It writes with you.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
