@@ -27,43 +27,42 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
+    name: "Ted Schaefer",
     userName: "Product Manager",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "l love the idea; trees are very natural to me so it seems like a great way to organize knowledge - and the Al integration is very cool. upvote for that! Good luck with your launch -#1!!! Also, Paprika is indeed a fantastic anime.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
+    name: "Jamie L.",
     userName: "Cybersecurity Analyst",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "Grimo Al introduces a novel solution to make valuable knowledge widely accessible, featuring a node-based interface, community-driven content, and Al moderation. lt organizes diverse content, including videos and posts, into a streamlined notebook for efficient learning. The platform encourages content creation and sharing, promising future revenue sharing and open-source development.",
     rating: 4.8,
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
+    name: "Iris",
     userName: "Chief Technology Officer",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Grimo Al has completely transformed the way l learn and create. As someone who thrives on diving deep into new knowledge, l've found its simplicity, efficiency, and text-only, insight-focused approach incredibly refreshing. lt's not just another knowledge base; it's a powerhouse for those of us who are constantly curious and looking to innovate. With Grimo Al, l'm taking fewer notes but gaining so much more in terms of insights and understanding. lt's exactly what us 'crazy learners and creators' need!",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
+    name: "Pan Pan",
     userName: "Data Scientist",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Congrats on the launch of Grimo Al! l'm really excited about your node-based structure. lt seems like such a smart way to help us all manage and connect information more effectively.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
+    name: "Chloe Yang",
     userName: "IT Project Manager",
-    comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+    comment: "You guys know crazy learners and creators!",
     rating: 5.0,
   },
   {
@@ -96,6 +95,7 @@ export const TestimonialSection = () => {
         className="relative w-[80%] sm:w-[90%] lg:max-w-screen-xl mx-auto"
       >
         <CarouselContent>
+          {/* <div className="grid grid-cols-1 gap-4"> */}
           {reviewList.map((review) => (
             <CarouselItem
               key={review.name}
@@ -115,13 +115,13 @@ export const TestimonialSection = () => {
 
                 <CardHeader>
                   <div className="flex flex-row items-center gap-4">
-                    <Avatar>
+                    {/* <Avatar>
                       <AvatarImage
                         src="https://avatars.githubusercontent.com/u/75042455?v=4"
                         alt="radix"
                       />
                       <AvatarFallback>SV</AvatarFallback>
-                    </Avatar>
+                    </Avatar> */}
 
                     <div className="flex flex-col">
                       <CardTitle className="text-lg">{review.name}</CardTitle>
@@ -132,6 +132,7 @@ export const TestimonialSection = () => {
               </Card>
             </CarouselItem>
           ))}
+          {/* </div> */}
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />

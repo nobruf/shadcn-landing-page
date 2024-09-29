@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Link from "next/link";
 import { Check } from "lucide-react";
 
 enum PopularPlan {
@@ -20,6 +21,7 @@ interface PlanProps {
   price: number;
   description: string;
   buttonText: string;
+  buttonLink: string;
   benefitList: string[];
 }
 
@@ -31,6 +33,7 @@ const plans: PlanProps[] = [
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Start Free Trial",
+    buttonLink: "http://beta.grimo.ai",
     benefitList: [
       "1 team member",
       "1 GB storage",
@@ -46,6 +49,7 @@ const plans: PlanProps[] = [
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Get starterd",
+    buttonLink: "http://beta.grimo.ai",
     benefitList: [
       "4 team member",
       "8 GB storage",
@@ -61,6 +65,7 @@ const plans: PlanProps[] = [
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Contact US",
+    buttonLink: "mailto:dev@gmail.com",
     benefitList: [
       "10 team member",
       "20 GB storage",
@@ -88,7 +93,15 @@ export const PricingSection = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">
         {plans.map(
-          ({ title, popular, price, description, buttonText, benefitList }) => (
+          ({
+            title,
+            popular,
+            price,
+            description,
+            buttonText,
+            buttonLink,
+            benefitList,
+          }) => (
             <Card
               key={title}
               className={
@@ -128,7 +141,9 @@ export const PricingSection = () => {
                   }
                   className="w-full"
                 >
-                  {buttonText}
+                  <Link target="_blank" href={buttonLink}>
+                    {buttonText}
+                  </Link>
                 </Button>
               </CardFooter>
             </Card>

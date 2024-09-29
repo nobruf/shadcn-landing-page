@@ -10,41 +10,41 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
-    icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    icon: "Search",
+    title: "Search anywhere",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "No need to switch between multiple windows. Find what you need from any location within the Grimo.",
   },
   {
-    icon: "BadgeCheck",
-    title: "Social Proof",
+    icon: "MessageSquareText",
+    title: "AI Comment",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Get real-time suggestions to improve clarity, style, and impact with instant AI feedback.",
   },
   {
-    icon: "Goal",
-    title: "Targeted Content",
+    icon: "Brain",
+    title: "Ask AI anything",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Get instant answers and insights on any topic. Leverage AI to satisfy your curiosity and solve problems quickly.",
   },
-  {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
-    description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
-  },
-  {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
-  },
-  {
-    icon: "Newspaper",
-    title: "Clear Headline",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
-  },
+  // {
+  //   icon: "PictureInPicture",
+  //   title: "Strong Visuals",
+  //   description:
+  //     "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+  // },
+  // {
+  //   icon: "MousePointerClick",
+  //   title: "Clear CTA",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+  // },
+  // {
+  //   icon: "Newspaper",
+  //   title: "Clear Headline",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+  // },
 ];
 
 export const FeaturesSection = () => {
@@ -59,9 +59,8 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Enhance your productivity and creativity with our cutting-edge AI
+        writing tool.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
