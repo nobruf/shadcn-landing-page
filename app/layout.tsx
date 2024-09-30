@@ -8,8 +8,8 @@ import { FooterSection } from "@/components/layout/sections/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shadcn - Landing template",
-  description: "Landing template from Shadcn",
+  title: "Grimo - Reimagine Word Processor",
+  description: "Your All-in-one Writing Interface for Better Writing",
 };
 
 export default function RootLayout({
@@ -19,6 +19,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
+      {/* <head>
+        <link
+          rel="apple-touch-icon"
+          href="/apple-icon?<generated>"
+          type="image/<generated>"
+          sizes="<generated>"
+        />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head> */}
       <body className={cn("min-h-screen bg-background", inter.className)}>
         <ThemeProvider
           attribute="class"

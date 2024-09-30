@@ -3,7 +3,7 @@
 export default function RefundPolicy() {
   return (
     <>
-      <main className=" prose lg:prose-xl mx-auto w-full">
+      <main className="container prose lg:prose-xl mx-auto w-full">
         <div>
           <h1>Refund Policy</h1>
           <p>

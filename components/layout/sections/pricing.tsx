@@ -65,7 +65,7 @@ const plans: PlanProps[] = [
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Contact US",
-    buttonLink: "mailto:dev@gmail.com",
+    buttonLink: "mailto:dev@grimo.ai",
     benefitList: [
       "10 team member",
       "20 GB storage",
