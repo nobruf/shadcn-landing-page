@@ -81,13 +81,12 @@ export const Navbar = () => {
       <Link href="/" className="font-bold text-lg flex items-center gap-1">
         {/* <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" /> */}
         <Image
-          width={48}
-          height={48}
-          className="w-6 mx-auto rounded-lg relative rouded-lg leading-none flex items-center  border-secondary  border-t-primary/30"
-          src="/grimo/logo.png"
+          width={72}
+          height={72}
+          // className="mx-auto rounded-lg relative rouded-lg leading-none flex items-center  border-secondary  border-t-primary/30"
+          src="/grimo/grimo_logo.svg"
           alt="grimo"
         />
-        Grimo
       </Link>
       {/* <!-- Mobile --> */}
       <div className="flex items-center md:hidden">
@@ -171,7 +170,7 @@ export const Navbar = () => {
           </Link>
         </Button> */}
 
-        <Button asChild variant="outline" className="w-fit" size="sm">
+        <Button asChild variant="secondary" className="w-fit" size="sm">
           <Link aria-label="grimo" href="http://beta.grimo.ai" target="_blank">
             Start Writing
           </Link>
