@@ -81,10 +81,10 @@ export const Navbar = () => {
       <Link href="/" className="font-bold text-lg flex items-center gap-1">
         {/* <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" /> */}
         <Image
-          width={1200}
-          height={1200}
+          width={48}
+          height={48}
           className="w-6 mx-auto rounded-lg relative rouded-lg leading-none flex items-center  border-secondary  border-t-primary/30"
-          src="/grimo/favicon.png"
+          src="/grimo/logo.png"
           alt="grimo"
         />
         Grimo
