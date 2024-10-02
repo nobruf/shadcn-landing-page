@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 // };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://grimo.ai"),
   title: {
     template: "%s | Grimo",
     default: "Grimo - Reimagine Word Processor",
