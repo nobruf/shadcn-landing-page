@@ -9,7 +9,7 @@ import Link from "next/link";
 export const FooterSection = () => {
   return (
     <footer id="footer" className="container py-24 sm:py-7">
-      <div className="sm:px-8 pt-10 bg-card border-t border-border">
+      <div className=" sm:px-8 pt-10 bg-card border-t border-border">
         <div className="flex flex-col sm:flex-row justify-end gap-x-20 gap-y-8">
           {/* <div className="col-span-full sm:col-span-1">
             <Link href="#" className="flex font-medium items-center">
@@ -90,7 +90,7 @@ export const FooterSection = () => {
         </div>
 
         {/* <Separator className="my-9" /> */}
-        <section className="flex flex-row items-center mt-14">
+        <section className="flex flex-col items-start gap-4 sm:flex-row sm:items-center mt-14">
           <h3 className="opacity-60 flex-1">
             Copyright © 2024 GrimoAI Pte. Ltd. <br />
             All rights reserved.

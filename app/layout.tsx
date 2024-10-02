@@ -12,35 +12,12 @@ const inter = Inter({ subsets: ["latin"] });
 //   description: "Your All-in-one Writing Interface for Better Writing",
 // };
 
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     template: "%s | Grimo",
     default: "Grimo - Reimagine Word Processor",
   },
   description: "Your All-in-one Writing Interface for Better Writing",
-//   openGraph: {
-//     type: "website",
-//     url: "https://www.grimo.ai/",
-//     title: "Grimo - Reimagine Word Processor",
-//     description: "Your All-in-one Writing Interface for Better Writing",
-//     images: [
-//       {
-//         // url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-//         width: 1200,
-//         height: 630,
-//         alt: "Grimo - Reimagine Word Processor",
-//       },
-//     ],
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     site: "https://www.grimo.ai/",
-//     title: "Grimo - Reimagine Word Processor",
-//     description: "Your All-in-one Writing Interface for Better Writing",
-//     images: [
-//       "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-//     ],
-//   },
 };
 
 export default function RootLayout({
@@ -50,15 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
-      {/* <head>
-        <link
-          rel="apple-touch-icon"
-          href="/apple-icon?<generated>"
-          type="image/<generated>"
-          sizes="<generated>"
-        />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head> */}
       <body className={cn("min-h-screen bg-background", inter.className)}>
         <ThemeProvider
           attribute="class"
