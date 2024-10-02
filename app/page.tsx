@@ -11,33 +11,6 @@ import { SponsorsSection } from "@/components/layout/sections/sponsors";
 
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
-export const metadata = {
-  title: "Grimo - Reimagine Word Processor",
-  description: "Your All-in-one Writing Interface for Better Writing",
-  openGraph: {
-    type: "website",
-    url: "https://www.grimo.ai/",
-    title: "Grimo - Reimagine Word Processor",
-    description: "Your All-in-one Writing Interface for Better Writing",
-    images: [
-      {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Grimo - Reimagine Word Processor",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "https://www.grimo.ai/",
-    title: "Grimo - Reimagine Word Processor",
-    description: "Your All-in-one Writing Interface for Better Writing",
-    images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-    ],
-  },
-};
 
 export default function Home() {
   return (

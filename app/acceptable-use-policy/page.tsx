@@ -1,4 +1,7 @@
-
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Acceptable Use Policy",
+};
 
 export default function AcceptableUsePolicy() {
   return (
