@@ -135,6 +135,7 @@ export const PricingSection = () => {
 
               <CardFooter>
                 <Button
+                  asChild
                   variant={
                     popular === PopularPlan?.YES ? "default" : "secondary"
                   }
