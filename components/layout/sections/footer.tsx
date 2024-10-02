@@ -98,7 +98,7 @@ export const FooterSection = () => {
           <ul className="flex flex-row gap-4">
             <li>
               <Link
-                href="https://x.com/GrimoAI"
+                href="https://www.linkedin.com/company/grimo-ai/"
                 className="opacity-60 hover:opacity-100"
               >
                 <Icon
