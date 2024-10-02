@@ -27,51 +27,46 @@ interface PlanProps {
 
 const plans: PlanProps[] = [
   {
-    title: "Free",
+    title: "Writer",
     popular: 0,
-    price: 0,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
+    price: 20,
+    description: "For AI-assisted content writing.",
+    buttonText: "Get Started",
     buttonLink: "http://beta.grimo.ai",
     benefitList: [
-      "1 team member",
-      "1 GB storage",
-      "Upto 2 pages",
-      "Community support",
-      "AI assistance",
+      "Access to Write, Search, Refine",
+      "Powered by Claude 3.5 Sonnet",
+      "Unlimited storage",
+      "Unlimited history",
     ],
   },
   {
-    title: "Premium",
+    title: "Editor",
     popular: 1,
-    price: 45,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get starterd",
+    price: 40,
+    description: "For professionals with strong editing demand.",
+    buttonText: "Start Free Trial",
     buttonLink: "http://beta.grimo.ai",
     benefitList: [
-      "4 team member",
-      "8 GB storage",
-      "Upto 6 pages",
-      "Priority support",
-      "AI assistance",
+      "Everything in Writer plus",
+      "Access to Edit / Edit+",
+      "Access to Advance Preset and Sharing.",
+      "Powered by Claude 3.5 Sonnet.",
     ],
   },
   {
     title: "Enterprise",
     popular: 0,
-    price: 120,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+    price: -1,
+    description: "For teams with",
     buttonText: "Contact US",
     buttonLink: "mailto:dev@grimo.ai",
     benefitList: [
-      "10 team member",
-      "20 GB storage",
-      "Upto 10 pages",
-      "Phone & email support",
-      "AI assistance",
+      "Advanced Security & Controls",
+      "Customized Preset",
+      "Team Analytics",
+      "Free Coaching",
+      "Dedicated Support",
     ],
   },
 ];
@@ -84,11 +79,11 @@ export const PricingSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-semibold mb-4">
-        Get unlimitted access
+        Simple Pricing, No Add-ons
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
-        Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
+        Cancel Anytime
       </h3>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">
@@ -118,8 +113,12 @@ export const PricingSection = () => {
                 </CardDescription>
 
                 <div>
-                  <span className="text-3xl font-bold">${price}</span>
-                  <span className="text-muted-foreground"> /month</span>
+                  {price > -1 && (
+                    <>
+                      <span className="text-3xl font-bold">${price}</span>
+                      <span className="text-muted-foreground"> /month</span>
+                    </>
+                  )}
                 </div>
               </CardHeader>
 
