@@ -165,13 +165,13 @@ export const Navbar = () => {
         </Button> */}
 
         {/* <Button asChild variant="ghost" className="w-fit" size="sm">
-          <Link aria-label="grimo" href="http://beta.grimo.ai" target="_blank">
+          <Link aria-label="grimo" href="http://go.grimo.ai" target="_blank">
             About
           </Link>
         </Button> */}
 
         <Button asChild variant="secondary" className="w-fit" size="sm">
-          <Link aria-label="grimo" href="http://beta.grimo.ai" target="_blank">
+          <Link aria-label="grimo" href="http://go.grimo.ai" target="_blank">
             Start Writing
           </Link>
         </Button>

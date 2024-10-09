@@ -32,7 +32,7 @@ const plans: PlanProps[] = [
     price: 20,
     description: "For AI-assisted content writing.",
     buttonText: "Get Started",
-    buttonLink: "http://beta.grimo.ai",
+    buttonLink: "http://go.grimo.ai",
     benefitList: [
       "Access to Write, Search, Refine",
       "Powered by Claude 3.5 Sonnet",
@@ -46,12 +46,12 @@ const plans: PlanProps[] = [
     price: 40,
     description: "For professionals with strong editing demand.",
     buttonText: "Start Free Trial",
-    buttonLink: "http://beta.grimo.ai",
+    buttonLink: "http://go.grimo.ai",
     benefitList: [
       "Everything in Writer plus",
       "Access to Edit / Edit+",
       "Access to Advance Preset and Sharing.",
-      "Powered by Claude 3.5 Sonnet.",
+      // "Powered by Claude 3.5 Sonnet.",
     ],
   },
   {
