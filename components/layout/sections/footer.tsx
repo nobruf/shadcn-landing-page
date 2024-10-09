@@ -19,6 +19,7 @@ export const FooterSection = () => {
               // className="mx-auto rounded-lg relative rouded-lg leading-none flex items-center  border-secondary  border-t-primary/30"
               src="/grimo/grimo_logo.svg"
               alt="grimo"
+              loading="eager"
             />
             <ul className="flex flex-row items-end gap-4">
               <li>
