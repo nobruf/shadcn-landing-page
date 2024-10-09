@@ -84,7 +84,7 @@ export const Navbar = () => {
           width={72}
           height={72}
           // className="mx-auto rounded-lg relative rouded-lg leading-none flex items-center  border-secondary  border-t-primary/30"
-          src="/grimo/grimo_logo.svg"
+          src="/grimo/grimo_logo.png"
           alt="grimo"
           loading="eager"
         />
