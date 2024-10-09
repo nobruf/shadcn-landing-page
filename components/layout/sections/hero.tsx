@@ -35,8 +35,8 @@ export const HeroSection = () => {
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button asChild className="w-5/6 md:w-1/4 font-bold group/arrow">
               <Link
-                aria-label="View on GitHub"
-                href="http://beta.grimo.ai"
+                aria-label="Start Writing"
+                href="http://go.grimo.ai"
                 target="_blank"
               >
                 Start Writing
