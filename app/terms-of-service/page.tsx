@@ -19,7 +19,7 @@ export default function TermsOfService() {
             websites (all together, “Services”). These Terms form an agreement
             between you and GrimoAI Pte. Ltd., a private limited company
             registered in Singapore, and they include our{" "}
-            <a href="https://grimo-ai.sg.larksuite.com/docx/AWBidocwVoCF5txka77lSFxognc?from=from_copylink">
+            <a href="/acceptable-use-policy">
               Acceptable Use Policy
             </a>{" "}
             and important provisions for resolving disputes through arbitration.
@@ -27,7 +27,7 @@ export default function TermsOfService() {
           </p>
           <p>
             Our{" "}
-            <a href="https://grimo-ai.sg.larksuite.com/docx/MILBdl3haoSutvxjt5ClHcb3gfc?from=from_copylink">
+            <a href="/privacy-policy">
               Privacy Policy
             </a>{" "}
             explains how we collect and use personal information. Although it
@@ -62,7 +62,7 @@ export default function TermsOfService() {
             <strong>What you can do</strong>. Subject to your compliance with
             these Terms, you may access and use our Services. In using our
             Services, you must comply with all applicable laws as well as our{" "}
-            <a href="https://grimo-ai.sg.larksuite.com/docx/AWBidocwVoCF5txka77lSFxognc?from=from_copylink">
+            <a href="/acceptable-use-policy">
               Acceptable Use Policy
             </a>
             , and any other documentation, guidelines, or policies we make
@@ -267,7 +267,7 @@ export default function TermsOfService() {
             <li>
               <p>
                 You breached these Terms or our{" "}
-                <a href="https://grimo-ai.sg.larksuite.com/docx/AWBidocwVoCF5txka77lSFxognc">
+                <a href="/acceptable-use-policy">
                   Acceptable Use Policy
                 </a>
                 .
