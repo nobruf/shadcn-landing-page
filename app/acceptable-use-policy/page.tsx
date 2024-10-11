@@ -60,10 +60,7 @@ export default function AcceptableUsePolicy() {
             or report it directly in the product through the “report issues”
             thumbs down button. You can read more about our Trust and Safety
             practices and recommendations in our{" "}
-            <a href="https://support.anthropic.com/en/collections/4078535-trust-safety">
-              Support Center
-            </a>
-            .
+              Support Center.
           </p>
           <p>
             This Usage Policy is calibrated to strike an optimal balance between
