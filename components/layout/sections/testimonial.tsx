@@ -30,7 +30,7 @@ const reviewList: ReviewProps[] = [
     name: "John Doe",
     userName: "Product Manager",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "This app helped me find the best places to invest. The video tutorials and expert insights made a huge difference in my investment strategy! ",
     rating: 5.0,
   },
   {
@@ -38,7 +38,7 @@ const reviewList: ReviewProps[] = [
     name: "Sophia Collins",
     userName: "Cybersecurity Analyst",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "I love how easy it is to track my portfolio. The real-time updates and personalized recommendations are game-changers! ",
     rating: 4.8,
   },
 
@@ -47,7 +47,7 @@ const reviewList: ReviewProps[] = [
     name: "Adam Johnson",
     userName: "Chief Technology Officer",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "As a beginner, I was overwhelmed by the idea of investing. This app made it simple and gave me the confidence to start building my savings.",
     rating: 4.9,
   },
   {
@@ -55,7 +55,7 @@ const reviewList: ReviewProps[] = [
     name: "Ethan Parker",
     userName: "Data Scientist",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "The learning resources in the app are incredible. The step-by-step guides and videos have really improved my understanding of investments.",
     rating: 5.0,
   },
   {
@@ -63,7 +63,7 @@ const reviewList: ReviewProps[] = [
     name: "Ava Mitchell",
     userName: "IT Project Manager",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "I’ve tried other investment apps, but this one stands out. The community support and AI assistance have been invaluable to me.",
     rating: 5.0,
   },
   {
@@ -71,7 +71,7 @@ const reviewList: ReviewProps[] = [
     name: "Isabella Reed",
     userName: "DevOps Engineer",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "With this app, I can finally make informed investment decisions. The analytics and market insights are so detailed and easy to understand.",
     rating: 4.9,
   },
 ];

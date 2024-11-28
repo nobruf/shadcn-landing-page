@@ -17,25 +17,25 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Personalized Investment Guidance",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Receive expert recommendations based on your risk profile and financial goals to help you make smarter investment choices.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Market Insights & Analytics",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+      "Stay updated with in-depth market trends, performance charts, and data-driven insights to guide your investment decisions.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    title: "Interactive Learning & Resources",
+    description: "Access a variety of educational materials, including videos, articles, and webinars, to enhance your knowledge of investment strategies.",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "Investment Portfolio Tracking",
+    description: "Effortlessly track and manage your investments with real-time portfolio updates and performance metrics to optimize your growth.",
     pro: 1,
   },
 ];
@@ -48,11 +48,10 @@ export const ServicesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
+      Comprehensive Investment Services
       </h2>
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
+      Explore a range of tailored services designed to help you make informed investment decisions, manage your portfolio effectively, and stay ahead in the market.
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 

@@ -29,7 +29,7 @@ const plans: PlanProps[] = [
     popular: 0,
     price: 0,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+      "Perfect for getting started, the Free plan gives you access to essential investment resources. Explore curated videos, track investment trends, and start sharing your questions with the community. Ideal for individuals new to investing.",
     buttonText: "Start Free Trial",
     benefitList: [
       "1 team member",
@@ -44,7 +44,7 @@ const plans: PlanProps[] = [
     popular: 1,
     price: 45,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+      "For the serious investor looking for more insights, the Premium plan unlocks exclusive content and advanced features. Enjoy in-depth videos, expert analysis, and premium tools to help you make informed decisions with ease.",
     buttonText: "Get starterd",
     benefitList: [
       "4 team member",
@@ -59,7 +59,7 @@ const plans: PlanProps[] = [
     popular: 0,
     price: 120,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+      "Designed for businesses and large-scale investors, the Enterprise plan provides a tailored experience with exclusive features, dedicated support, and customizable tools. Perfect for teams looking to make strategic investment decisions with expert guidance.",
     buttonText: "Contact US",
     benefitList: [
       "10 team member",
@@ -79,11 +79,11 @@ export const PricingSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Get unlimitted access
+      Choose Your Plan
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
-        Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
+      Find the perfect plan for your investment journey. Whether you're starting out or scaling your investment, we’ve got you covered.
       </h3>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">

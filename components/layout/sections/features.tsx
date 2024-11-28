@@ -13,37 +13,37 @@ const featureList: FeaturesProps[] = [
     icon: "TabletSmartphone",
     title: "Mobile Friendly",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Enjoy a consistent experience on both tablet and smartphone. Our app is fully optimized for mobile and tablet use, ensuring you can manage your investments anytime, anywhere.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Verified & Trusted Investments",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "All investment options are verified for security and reliability. We partner with trusted institutions and thoroughly vet opportunities to give you peace of mind.",
   },
   {
     icon: "Goal",
     title: "Targeted Content",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Set your investment goals, track progress, and align your strategy to meet your financial milestones. Our goal-based approach helps you stay focused and motivated.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Interactive Investment Videos",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Watch educational videos while you explore the app. The picture-in-picture feature lets you learn on-the-go without interrupting your investment research.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Effortless Investment Navigation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Navigate the app with ease. Our intuitive design and smooth interactions make finding and managing investments simple and efficient.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Up-to-Date Investment News",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Stay informed with real-time news and updates on the latest investment trends, market shifts, and financial insights—all within the app.",
   },
 ];
 
@@ -59,9 +59,7 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+      Our app stands out by providing a unique combination of personalized investment guidance, real-time tracking, and educational resources—all in one place. Unlike other platforms, we focus on simplifying complex investment concepts through videos and interactive features, allowing users to make informed decisions with confidence. With access to exclusive opportunities, secure transactions, and community-driven support, we empower users to invest smarter and more effectively.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

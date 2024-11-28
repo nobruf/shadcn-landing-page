@@ -13,32 +13,32 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "What types of investments can I learn about on this app?",
+    answer: "Our app offers a wide range of investment options, including stocks, bonds, mutual funds, real estate, and more. Explore various opportunities to diversify and grow your savings.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "How do I view investment videos?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Simply navigate to the 'Videos' section of the app where you can find expert-led tutorials and insightful content about different investment strategies. Watch anytime, anywhere!",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "Can I ask questions about specific investment opportunities?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Yes! You can share your doubts and questions in the 'Q&A' section. Our community of experts and investors will help provide answers and guidance.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "What’s the difference between the Free, Premium, and Enterprise plans?",
+    answer: "The Free plan gives you basic access to educational content. The Premium plan includes exclusive videos and advanced features like personalized recommendations. The Enterprise plan is designed for teams and businesses, offering comprehensive analytics and expert support.",
     value: "item-4",
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+      "Is my personal information secure on this app?",
+    answer: "Absolutely! We prioritize your privacy and security by using advanced encryption and secure authentication methods. Your data is protected at all times.",
     value: "item-5",
   },
 ];

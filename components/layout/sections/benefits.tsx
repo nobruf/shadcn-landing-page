@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Data-Driven Insights",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Gain valuable insights with powerful analytics that help you make informed investment decisions. Our platform offers easy-to-understand charts and data to guide you every step of the way.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Track Investment Performance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Monitor the growth and performance of your investments in real-time with visual reports. Stay on top of trends with our dynamic line charts that reflect the health of your portfolio.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Secure and Easy Transactions",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Store and manage your investments securely within our platform’s digital wallet. Enjoy seamless transactions with top-tier security, ensuring your financial data stays protected.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Exclusive Investment Opportunities ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Unlock access to premium investment opportunities that help your wealth grow. With curated, high-potential options, your investments are set for maximum returns.",
   },
 ];
 
@@ -43,12 +43,10 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+          Maximize Your Investment Potential with Our Features
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+          Unlock Exclusive Features and Tools to Maximize Your Investment Potentia
           </p>
         </div>
 
