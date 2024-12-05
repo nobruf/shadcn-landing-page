@@ -11,11 +11,13 @@ import { SponsorsSection } from "@/components/layout/sections/sponsors";
 
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
+import { Descriptions } from "@/components/layout/sections/descriptions";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <Descriptions />
       {/* <SponsorsSection /> */}
       {/* <BenefitsSection /> */}
       <FeaturesSection />

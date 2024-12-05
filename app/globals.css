@@ -73,8 +73,82 @@ html {
   }
 } */
 
-/* *=========== Orange theme =========== */
+/* *=========== Grimo theme =========== */
 @layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 255, 3%, 24%;
+    --card: 0 0% 100%;
+    --card-foreground: 255, 3%, 24%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 255, 3%, 24%;
+    --primary: 255, 3%, 24%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 100%;
+    --secondary-foreground: 255, 3%, 24%;
+    --muted: 240, 5%, 98%;
+    --muted-foreground: 253, 5%, 46%;
+    --accent: 240, 7%, 95%;
+    --accent-foreground: 250, 3%, 24%;
+    --destructive: 0, 84%, 60%;
+    --destructive-foreground: 0, 0%, 100%;
+    --border: 260, 4%, 93%;
+    --input: 260, 4%, 93%;
+    --ring: 255, 3%, 24%;
+
+    --radius: 0.3rem;
+
+    --sidebar-background: 240, 5%, 98%;
+    --sidebar-foreground: 255, 3%, 24%;
+    --sidebar-primary: 255, 3%, 24%;
+    --sidebar-primary-foreground: 0, 0%, 100%;
+    --sidebar-accent: 260, 4%, 93%;
+    --sidebar-accent-foreground: 250, 10%, 24%;
+    --sidebar-border: 260, 4%, 93%;
+    --sidebar-ring: 255, 3%, 24%;
+
+    --overlay: 0, 0%, 0%, 0.3;
+
+    --brand: 250 40% 50%;
+    --success: 142 71% 45%;
+    --ai: 271 91% 65%;
+    --ai-foreground: 250 40% 50%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+/* *=========== purple theme =========== */
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 250 18% 31%;
@@ -135,7 +209,7 @@ html {
     --input: 12 6.5% 15.1%;
     --ring: 20.5 90.2% 48.2%;
   }
-}
+} */
 
 .shadow-light {
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.085);

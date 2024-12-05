@@ -137,7 +137,7 @@ export const PricingSection = () => {
                 <Button
                   asChild
                   variant={
-                    popular === PopularPlan?.YES ? "default" : "secondary"
+                    popular === PopularPlan?.YES ? "default" : "outline"
                   }
                   className="w-full"
                 >
